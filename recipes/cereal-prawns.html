@@ -3,18 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <title>Cereal Prawns</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
+    <h1>Odin Recipes</h1>
+    <ul class="recipes">
+      <li>
+        <a class="recipe-link" href="../recipes/chilli-crab.html"
+          >Chilli Crab</a
+        >
+      </li>
+      <li>
+        <a class="recipe-link" href="../recipes/cereal-prawns.html"
+          >Cereal Prawns</a
+        >
+      </li>
+      <li><a class="recipe-link" href="../recipes/laksa.html">Laksa</a></li>
+    </ul>
+
     <h1>Cereal Prawns</h1>
     <img
+      id="cereal-prawns"
       src="https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/buttermilk-cereal-prawns/AFN_buttermilk_cereal_prawn_main_image.jpg"
       alt="An image of a scrumptious plate of Cereal Prawns."
-      width="100%"
     />
 
     <h2>A staple dish in Singapore</h2>
-    <p>
+    <p class="text-description">
       This Singaporean dish consists of crispy fried prawns that are doused in a
       rich combination of butter, crushed and toasted cereals, curry leaves, and
       chilis. Even though it is easily prepared at home, the dish is a staple at
@@ -24,58 +46,63 @@
       <em>- tasteatlas</em>
     </p>
 
-    <h3>Ingredients (For 4 servings)</h3>
-    <ul>
-      <li>16 prawns</li>
-      <li>1 egg</li>
-      <li>1 tablespoon flour</li>
-      <li>1 tablespoon cornstarch</li>
-      <li>½ cup original flavour instant cereal drink(60 g)</li>
-      <li>1 teaspoon chicken powder</li>
-      <li>1 tablespoon sugar</li>
-      <li>1 tablespoon milk powder</li>
-      <li>½ cup butter(50 g)</li>
-      <li>1 teaspoon salt</li>
-      <li>1 teaspoon pepper</li>
-      <li>5 bird-eye chillis, sliced</li>
-      <li>40 curry leaves</li>
-    </ul>
+    <div id="ingredients">
+      <h3>Ingredients (For 4 servings)</h3>
+      <ul class="recipes-lists">
+        <li>16 prawns</li>
+        <li>1 egg</li>
+        <li>1 tablespoon flour</li>
+        <li>1 tablespoon cornstarch</li>
+        <li>½ cup original flavour instant cereal drink(60 g)</li>
+        <li>1 teaspoon chicken powder</li>
+        <li>1 tablespoon sugar</li>
+        <li>1 tablespoon milk powder</li>
+        <li>½ cup butter(50 g)</li>
+        <li>1 teaspoon salt</li>
+        <li>1 teaspoon pepper</li>
+        <li>5 bird-eye chillis, sliced</li>
+        <li>40 curry leaves</li>
+      </ul>
+    </div>
 
-    <h3>Steps</h3>
-    <ol>
-      <li>
-        Remove the outer shells and legs from prawns, devein, then set aside in
-        a bowl.
-      </li>
-      <li>
-        Cover the prawns with beaten egg, flour, and cornstarch, then stir using
-        a set of chopsticks ensuring to coat each prawn.
-      </li>
-      <li>
-        Heat oil in a wok over medium heat, then once it comes up to temperature
-        fry prawns in batches of five for two minutes. Repeat until all prawns
-        are cooked, then set aside.
-      </li>
-      <li>
-        In a bowl, add original flavour instant cereal drink, chicken powder,
-        sugar and milk powder, then stir to combine.
-      </li>
-      <li>
-        In a large frying pan, melt butter then add chilli and curry leaves,
-        frying until butter starts to bubble.
-      </li>
-      <li>
-        Add the prawns to the pan and give a quick stir to coat in butter, then
-        quickly add the dry cereal ingredients and continue to stir until the
-        prawns are fully coated.
-      </li>
-      <li>Serve prawns on a plate with all the cereal crumbs.</li>
-      <li>Enjoy!</li>
+    <h3 class="p-italics"><em>Simple. Tasty. Mwah. - Anonymous</em></h3>
 
+    <div id="steps">
+      <h3>Steps</h3>
+      <ol class="text-description recipes-steps">
+        <li>
+          Remove the outer shells and legs from prawns, devein, then set aside
+          in a bowl.
+        </li>
+        <li>
+          Cover the prawns with beaten egg, flour, and cornstarch, then stir
+          using a set of chopsticks ensuring to coat each prawn.
+        </li>
+        <li>
+          Heat oil in a wok over medium heat, then once it comes up to
+          temperature fry prawns in batches of five for two minutes. Repeat
+          until all prawns are cooked, then set aside.
+        </li>
+        <li>
+          In a bowl, add original flavour instant cereal drink, chicken powder,
+          sugar and milk powder, then stir to combine.
+        </li>
+        <li>
+          In a large frying pan, melt butter then add chilli and curry leaves,
+          frying until butter starts to bubble.
+        </li>
+        <li>
+          Add the prawns to the pan and give a quick stir to coat in butter,
+          then quickly add the dry cereal ingredients and continue to stir until
+          the prawns are fully coated.
+        </li>
+        <li>Serve prawns on a plate with all the cereal crumbs.</li>
+        <li>Enjoy!</li>
+      </ol>
       <p>
-        <em>Recipe by </em>
+        <em class="p-italics">Recipe by </em>
         <a href="https://tasty.co/recipe/cereal-prawns">tasty.co</a>
       </p>
-    </ol>
+    </div>
   </body>
 </html>

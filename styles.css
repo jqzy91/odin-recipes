@@ -1,0 +1,81 @@
+body {
+  font-family: "Bree Serif", serif;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(50, 48, 48);
+}
+
+.recipes {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  justify-content: space-evenly;
+  background: rgb(214, 74, 102);
+}
+
+.recipes-lists {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 28px;
+}
+
+.recipe-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+#cereal-prawns {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+}
+
+.text-description {
+  list-style-position: inside;
+  text-align: justify;
+  text-align-last: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-italics {
+  font-family: monospace;
+  font-weight: lighter;
+}
+
+#ingredients {
+  background: rgb(254, 242, 252);
+  padding: 20px;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: rgb(50, 48, 48);
+  width: 40%;
+  margin: 40px auto 40px auto;
+}
+
+#steps {
+  background: rgb(254, 242, 252);
+  padding: 20px;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: rgb(50, 48, 48);
+  width: 45%;
+  margin: 40px auto 40px auto;
+}
+
+.recipes-steps {
+  width: 80%;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+ol li {
+  margin-top: 10px;
+}
